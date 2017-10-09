@@ -40,4 +40,10 @@ Start to configure couchbase using WebConsole
   
   4. In the query panel of Couchbase we can create our INDEX
     * CREATE PRIMARY INDEX `default-primary-index` ON `default`
+    
+# QUERIES
+
+Access the Query panel from the server homepage and run a query in sql-like format.
+SELECT id FROM default WHERE AltezzaMinima > 1000
+https://www.couchbase.com/products/n1ql
 
