@@ -12,3 +12,14 @@ Start: sudo /etc/init.d/couchbase-server start
 Stop:  sudo /etc/init.d/couchbase-server stop
 
 To access the server write on browser --> localhost:8091
+
+# CONFIGURE COUCHBASE
+Start to configure couchbase using WebConsole
+Create a new Cluster specifying:
+  * Services
+  * Ram (both Index and Data)
+  * Type of Index
+  * Path to store data and index
+  * Hostname
+  * Bucket name
+  * Bucket type
