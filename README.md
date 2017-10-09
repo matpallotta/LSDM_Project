@@ -22,3 +22,5 @@
   * In the query panel of Couchbase we can create our INDEX
     * CREATE PRIMARY INDEX `default-primary-index` ON `default`
 
+3. [MySQL v5.7](https://dev.mysql.com/doc/refman/5.7/en/)
+
