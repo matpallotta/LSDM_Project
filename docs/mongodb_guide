@@ -1,0 +1,47 @@
+# INSTALLATION - Ubuntu 16.04
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
+
+echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
+
+sudo apt-get update
+
+sudo apt-get install -y mongodb-org
+
+
+
+# RUN MONDODB
+
+sudo service mongod start
+
+
+
+# CREATE DB, COLLECTION AND INDEXES AND IMPORT DATA
+
+## IN MONGODB SHELL (just type `mongo` to access it)
+
+use motorizzazione
+
+db.createCollection("parco_circolante")
+
+## IN UNIX SHELL
+
+### the following command takes a while to execute
+
+mongoimport --db motorizzazione --collection parco_circolante --type csv --headerline --file parco_circolante_aggregated.csv --ignoreBlanks
+
+## AGAIN IN MONGODB SHELL
+
+### indexes on:
+### tipo_veicolo,destinazione,uso,comune_residenza,provincia_residenza,regione_residenza,eta_intestatario,sesso,marca,cilindrata,alimentazione,classe_euro,emissioni_co2,revisione_in_regola,assicurazione_in_regola
+### what follows is a single command (takes a while to execute)
+
+db.parco_circolante.createIndex({"tipo_veicolo":1});db.parco_circolante.createIndex({"destinazione":1});db.parco_circolante.createIndex({"uso":1});db.parco_circolante.createIndex({"comune_residenza":1});db.parco_circolante.createIndex({"provincia_residenza":1});db.parco_circolante.createIndex({"regione_residenza":1});db.parco_circolante.createIndex({"eta_intestatario":1});db.parco_circolante.createIndex({"sesso":1});db.parco_circolante.createIndex({"marca":1});db.parco_circolante.createIndex({"cilindrata":1});db.parco_circolante.createIndex({"alimentazione":1});db.parco_circolante.createIndex({"classe_euro":1});db.parco_circolante.createIndex({"emissioni_co2":1});db.parco_circolante.createIndex({"revisione_in_regola":1});db.parco_circolante.createIndex({"assicurazione_in_regola":1})
+
+
+
+# QUERIES (https://docs.mongodb.com/manual/reference/method/db.collection.find/)
+
+db.parco_circolante.find({$and:[{"comune_residenza":"MILANO"}, {"marca":"FERRARI"}, {"eta_intestatario": 50}]})
+
+db.parco_circolante.find({$and:[{"comune_residenza":"ROMA"}, {"marca":"MASERATI"}, {"eta_intestatario":{ $gt: 40}}]})
