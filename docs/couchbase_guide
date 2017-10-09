@@ -1,0 +1,49 @@
+# INSTALLATION - Ubuntu 16.04
+
+Enter the following command to install OpenSSL, replacing version with a specific version number of OpenSSL:
+$ apt-get install libsslversion (1.0.2 - LTS release)
+
+Enter the following command to install Couchbase Server, replacing couchbase-server-version.deb with the name of the file you downloaded:
+$ dpkg -i couchbase-server-version.deb (community_4.5.1-ubuntu14.04_amd64)
+
+
+# RUN COUCHBASE
+Start: sudo /etc/init.d/couchbase-server start
+Stop:  sudo /etc/init.d/couchbase-server stop
+
+To access the server write on browser --> localhost:8091
+
+# CONFIGURE COUCHBASE
+Start to configure couchbase using WebConsole
+
+1. Create a new Cluster specifying:
+  * Services
+  * Ram (both Index and Data)
+  * Type of Index
+  * Path to store data and index
+  * Hostname
+  * Bucket name
+  * Bucket type
+  * Credentials
+  
+  2. Preprocess data
+    * csv file separeted by comma
+    * first field named "id"
+    
+  3. cbtransfer to import from csv
+    ./cbtransfer [your_path]/comuniitaliani28062016.csv http://localhost:8091 -B default -u Administrator -p [password] 
+    * Go to /opt/couchbase/bin/ via terminal and run the upper code. We have to specify:
+     * filepath of csv file
+     * url of Couchbase server (with port number)
+     * -B [bucket_name] to specify the bucket
+     * Credentials to access the server
+  
+  4. In the query panel of Couchbase we can create our INDEX
+    * CREATE PRIMARY INDEX `default-primary-index` ON `default`
+    
+# QUERIES
+
+Access the Query panel from the server homepage and run a query in sql-like format.
+SELECT id FROM default WHERE AltezzaMinima > 1000
+https://www.couchbase.com/products/n1ql
+
