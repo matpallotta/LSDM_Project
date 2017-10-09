@@ -1,3 +1,4 @@
 data/*.csv
 data/parco_circolante_veicoli/*.csv
 tmp/
+.idea/

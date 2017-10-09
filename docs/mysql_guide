@@ -1,0 +1,31 @@
+# INSTALLATION
+
+## Follow the linked guide in order to get the latest stable release
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-latest-mysql-on-ubuntu-16-04
+
+
+
+# CONFIGURATION
+
+mysql -u root -p
+
+create database mit;
+
+use mit;
+
+create table incidenti(regione varchar(30), anno smallint(4), totale_incidenti int, autovettura_privata int, autovettura_privata_con_rimorchio int, autovettura_pubblica int, autovettura_soccorso_o_polizia int, autobus_o_filobus_servizio_urbano int, autobus_servizio_extraurbano int, tram int, autocarro int, autotreno_con_rimorchio int, autosnodato_autoarticolato int, veicoli_speciali int, trattore_stradale_o_motrice int, trattore_agricolo int, velocipede int, ciclomotore int, motociclo_a_solo int, motociclo_con_passeggero int, motocarro_o_motofurgone int, veicolo_trazione_animale_o_braccia int, veicolo_ignoto_datosi_alla_fuga int, quadriciclo_leggero int, altri_veicoli int, totale_veicoli_coinvolti int, primary key (regione, anno));
+
+
+
+# IMPORT DATA
+
+## navigate to the scripts directory
+
+pip3 install pymysql
+
+## provide the mysql password in mysql_import_accidents_data.py 
+
+python3 mysql_import_accidents_data.py
+
+## check that everything is in the db (it should contain 260 rows, 13 per region)
