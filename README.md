@@ -13,7 +13,7 @@
     * csv file separeted by comma
     * first field named "id"
   * [cbtransfer to import from csv](https://developer.couchbase.com/documentation/server/current/cli/cbtransfer-tool.html)
-    * ``` ./cbtransfer /home/ubuntumat/Desktop/LargeScaleProject/Dataset/comuniitaliani28062016.csv http://localhost:8091 -B default -u Administrator -p [password] ```
+    * ``` ./cbtransfer [your_path]/comuniitaliani28062016.csv http://localhost:8091 -B default -u Administrator -p [password] ```
     * Go to /opt/couchbase/bin/ via terminal and run the upper code. We have to specify:
      * filepath of csv file
      * url of Couchbase server (with port number)
