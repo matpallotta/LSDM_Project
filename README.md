@@ -24,3 +24,6 @@
 
 3. [MySQL v5.7](https://dev.mysql.com/doc/refman/5.7/en/)
 
+### Information Integration
+* [Talend Open Studio for Data Integration v6.4.1](http://it.talend.com/download/talend-open-studio#t4)
+
