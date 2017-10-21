@@ -8,3 +8,5 @@ KEY-VALUE AND DOCUMENT
 FROM COUCHBASE 2.0   https://blog.couchbase.com/key-value-or-document-database-couchbase-2-dot-0-bridges-gap/
 DATA MODEL           https://developer.couchbase.com/documentation/server/4.6/data-modeling/concepts-data-modeling-intro.html
 INDEX                https://developer.couchbase.com/documentation/server/4.1/indexes/indexing-overview.html
+
+MONGOvsCOUCHBASE     https://www.couchbase.com/comparing-couchbase-vs-mongodb
