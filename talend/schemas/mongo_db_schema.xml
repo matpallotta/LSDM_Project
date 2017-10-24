@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="_id" length="-1"
+        nullable="false" originalDbColumnName="_id" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Object" type=""/>
+    <column comment="" default="" key="false" label="progressivo"
+        length="-1" nullable="true" originalDbColumnName="progressivo"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="tipo_veicolo"
+        length="-1" nullable="true" originalDbColumnName="tipo_veicolo"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="destinazione"
+        length="-1" nullable="true" originalDbColumnName="destinazione"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="uso" length="-1"
+        nullable="true" originalDbColumnName="uso" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="comune_residenza"
+        length="-1" nullable="true"
+        originalDbColumnName="comune_residenza" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="provincia_residenza" length="-1" nullable="true"
+        originalDbColumnName="provincia_residenza" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="regione_residenza"
+        length="-1" nullable="true"
+        originalDbColumnName="regione_residenza" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="eta_intestatario"
+        length="-1" nullable="true"
+        originalDbColumnName="eta_intestatario" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="sesso" length="-1"
+        nullable="true" originalDbColumnName="sesso" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="marca" length="-1"
+        nullable="true" originalDbColumnName="marca" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="cilindrata"
+        length="-1" nullable="true" originalDbColumnName="cilindrata"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="alimentazione"
+        length="-1" nullable="true" originalDbColumnName="alimentazione"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="data_immatricolazione" length="-1" nullable="true"
+        originalDbColumnName="data_immatricolazione" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="classe_euro"
+        length="-1" nullable="true" originalDbColumnName="classe_euro"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="emissioni_co2"
+        length="-1" nullable="true" originalDbColumnName="emissioni_co2"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="massa_complessiva"
+        length="-1" nullable="true"
+        originalDbColumnName="massa_complessiva" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="revisione_in_regola" length="-1" nullable="true"
+        originalDbColumnName="revisione_in_regola" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="false"
+        label="assicurazione_in_regola" length="-1" nullable="true"
+        originalDbColumnName="assicurazione_in_regola"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="id" length="-1"
+        nullable="true" originalDbColumnName="id" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+</schema>

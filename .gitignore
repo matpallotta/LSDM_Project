@@ -5,3 +5,4 @@ tmp/
 tMongoDBConnection/
 tMongoDBInput/
 tMongoDBOutput/
+mongo-java-driver-r3.5.0/

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="nome" length="-1"
+        nullable="false" originalDbColumnName="nome" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+    <column comment="" default="" key="true" label="provincia"
+        length="-1" nullable="false" originalDbColumnName="provincia"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="regione"
+        length="-1" nullable="true" originalDbColumnName="regione"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="popolazione"
+        length="-1" nullable="true" originalDbColumnName="popolazione"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="indice_montanita"
+        length="-1" nullable="true"
+        originalDbColumnName="indice_montanita" originalLength="-1"
+        pattern="" precision="-1" talendType="id_String" type=""/>
+</schema>

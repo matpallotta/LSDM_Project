@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false" label="Id" length="0"
+        nullable="true" originalDbColumnName="Id" originalLength="-1"
+        pattern="null" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="Key" length="0"
+        nullable="true" originalDbColumnName="Key" originalLength="-1"
+        pattern="null" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="Value" length="0"
+        nullable="true" originalDbColumnName="Value" originalLength="-1"
+        pattern="null" precision="0" talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="jsonDoc" length="0"
+        nullable="true" originalDbColumnName="jsonDoc"
+        originalLength="-1" pattern="null" precision="0"
+        talendType="id_Object" type=""/>
+</schema>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="" key="true" label="regione" length="30"
+        nullable="false" originalDbColumnName="regione"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="true" label="anno" length="4"
+        nullable="false" originalDbColumnName="anno" originalLength="-1"
+        pattern="" precision="0" talendType="id_Short" type="SMALLINT"/>
+    <column comment="" default="" key="false" label="totale_incidenti"
+        length="11" nullable="true"
+        originalDbColumnName="totale_incidenti" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="veicolo_ignoto_datosi_alla_fuga" length="11"
+        nullable="true"
+        originalDbColumnName="veicolo_ignoto_datosi_alla_fuga"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+</schema>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="true" label="OBJECTID" length="2"
+        nullable="false" originalDbColumnName="OBJECTID"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="COD_REG" length="1"
+        nullable="true" originalDbColumnName="COD_REG"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="COD_PRO" length="3"
+        nullable="true" originalDbColumnName="COD_PRO"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="NOME_PRO"
+        length="20" nullable="true" originalDbColumnName="NOME_PRO"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="NOME_REG"
+        length="21" nullable="true" originalDbColumnName="NOME_REG"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="M5_REDDITO"
+        length="5" nullable="true" originalDbColumnName="M5_REDDITO"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="SIGLA_PROVINCE"
+        length="2" nullable="true" originalDbColumnName="SIGLA_PROVINCE"
+        originalLength="0" pattern="&quot;dd-MM-yyyy&quot;"
+        precision="0" talendType="id_String"/>
+</schema>

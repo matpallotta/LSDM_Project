@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="mysql_id">
+    <column comment="" default="" key="true" label="regione" length="30"
+        nullable="false" originalDbColumnName="regione"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_String" type="VARCHAR"/>
+    <column comment="" default="" key="true" label="anno" length="4"
+        nullable="false" originalDbColumnName="anno" originalLength="-1"
+        pattern="" precision="0" talendType="id_Short" type="SMALLINT"/>
+    <column comment="" default="" key="false" label="totale_incidenti"
+        length="11" nullable="true"
+        originalDbColumnName="totale_incidenti" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autovettura_privata" length="11" nullable="true"
+        originalDbColumnName="autovettura_privata" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autovettura_privata_con_rimorchio" length="11"
+        nullable="true"
+        originalDbColumnName="autovettura_privata_con_rimorchio"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autovettura_pubblica" length="11" nullable="true"
+        originalDbColumnName="autovettura_pubblica" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autovettura_soccorso_o_polizia" length="11"
+        nullable="true"
+        originalDbColumnName="autovettura_soccorso_o_polizia"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autobus_o_filobus_servizio_urbano" length="11"
+        nullable="true"
+        originalDbColumnName="autobus_o_filobus_servizio_urbano"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autobus_servizio_extraurbano" length="11" nullable="true"
+        originalDbColumnName="autobus_servizio_extraurbano"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="tram" length="11"
+        nullable="true" originalDbColumnName="tram" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="autocarro"
+        length="11" nullable="true" originalDbColumnName="autocarro"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autotreno_con_rimorchio" length="11" nullable="true"
+        originalDbColumnName="autotreno_con_rimorchio"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="autosnodato_autoarticolato" length="11" nullable="true"
+        originalDbColumnName="autosnodato_autoarticolato"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="veicoli_speciali"
+        length="11" nullable="true"
+        originalDbColumnName="veicoli_speciali" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="trattore_stradale_o_motrice" length="11" nullable="true"
+        originalDbColumnName="trattore_stradale_o_motrice"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="trattore_agricolo"
+        length="11" nullable="true"
+        originalDbColumnName="trattore_agricolo" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="velocipede"
+        length="11" nullable="true" originalDbColumnName="velocipede"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="ciclomotore"
+        length="11" nullable="true" originalDbColumnName="ciclomotore"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="motociclo_a_solo"
+        length="11" nullable="true"
+        originalDbColumnName="motociclo_a_solo" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="motociclo_con_passeggero" length="11" nullable="true"
+        originalDbColumnName="motociclo_con_passeggero"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="motocarro_o_motofurgone" length="11" nullable="true"
+        originalDbColumnName="motocarro_o_motofurgone"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="veicolo_trazione_animale_o_braccia" length="11"
+        nullable="true"
+        originalDbColumnName="veicolo_trazione_animale_o_braccia"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="veicolo_ignoto_datosi_alla_fuga" length="11"
+        nullable="true"
+        originalDbColumnName="veicolo_ignoto_datosi_alla_fuga"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="quadriciclo_leggero" length="11" nullable="true"
+        originalDbColumnName="quadriciclo_leggero" originalLength="-1"
+        pattern="" precision="0" talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false" label="altri_veicoli"
+        length="11" nullable="true" originalDbColumnName="altri_veicoli"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+    <column comment="" default="" key="false"
+        label="totale_veicoli_coinvolti" length="11" nullable="true"
+        originalDbColumnName="totale_veicoli_coinvolti"
+        originalLength="-1" pattern="" precision="0"
+        talendType="id_Integer" type="INT"/>
+</schema>
